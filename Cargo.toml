@@ -7,3 +7,6 @@ authors = ["Jose Ferreira<contact@ferreiracode.com>"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+reqwest = {version = "0.11.12", features=["json", "blocking"]}
+serde = "1.0.145"
+serde_json = "1.0.85"
